@@ -13,3 +13,11 @@ like: an app, a table, a chronological timeline, even a generated video.
 
 ## Status
 Live prototype being built on a call, November 2026.
+
+## Prototype v0
+Live at https://demos.wanderingstan.com/beaconator/ — one PHP file (`index.php`) + SQLite.
+
+- `GET /` default viewer + post form
+- `GET ?format=json[&who=name][&since=id]`
+- `GET ?format=rss[&who=name]`
+- `POST who, text, url?, key` (shared key, v0 only)
